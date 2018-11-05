@@ -19,7 +19,7 @@ return [
    'Your Email' => 'Your Email',
    'Send Message' => 'Send Message',
    /*Profile*/
-   'Name' => 'Tonitsoi Evgeny',
+   'Name' => 'Evgeny Tonitsoi',
    'Position' => 'Web Developer',
    'About Me' => 'I am a young web developer, born and live in Chisinau, Republic of Moldova. I specialize in back-end development.',
    /*Skills*/

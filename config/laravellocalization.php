@@ -7,8 +7,8 @@ return [
     // Regional languages are sorted by their base language, so "British English" sorts as "English, British"
     'supportedLocales' => [
 
-        'en'          => ['name' => 'English',                'script' => 'Latn', 'native' => 'en', 'regional' => 'en_GB'],
-        'ru'          => ['name' => 'Russian',                'script' => 'Cyrl', 'native' => 'ru', 'regional' => 'ru_RU'],
+        'en' => ['name' => 'English', 'script' => 'Latn', 'native' => 'en', 'regional' => 'en_GB'],
+        'ru' => ['name' => 'Russian', 'script' => 'Cyrl', 'native' => 'ru', 'regional' => 'ru_RU'],
     ],
 
     // Negotiate for the user locale using the Accept-Language header if it's not defined in the URL?
