@@ -1,6 +1,6 @@
 <footer class="footer">
     <div class="container">
-        <p class="float-left"><a href="#">www.tonitsoi-evgeny.ru</a></p>
+        <p class="float-left"><a href="{{ url('/') }}">www.tonitsoi-evgeny.ru</a></p>
         <p class="float-right">
             <a href="#myModal"
                role="button"

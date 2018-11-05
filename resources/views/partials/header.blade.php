@@ -5,8 +5,8 @@
 <meta name="author" content="Тоницой Евгений">
 @yield('meta-tags')
 <meta property="og:type" content=website">
-<meta property="og:site_name" content="t-evgeny.ru">
-<meta property="og:url" content="https://t-evgeny.ru">
+<meta property="og:site_name" content="tonitsoi-evgeny.ru">
+<meta property="og:url" content="https://tonitsoi-evgeny.ru">
 <meta property="og:image" content="{{ asset('images/evgeny.jpg') }}">
 <meta property="og:locale" content="ru_RU">
 <!-- Favicon -->

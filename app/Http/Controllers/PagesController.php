@@ -31,8 +31,8 @@ class PagesController extends Controller {
 
    public function downloadResume(){
       $files = glob(public_path('download/*'));
-      Zipper::make(public_path('download/resume.zip'))->add($files)->close();
-      return response()->download(public_path('download/resume.zip'));
+      Zipper::make(public_path('download/Resume_Tonitsoi_Evgeny.zip'))->add($files)->close();
+      return response()->download(public_path('download/Resume_Tonitsoi_Evgeny.zip'));
    }
 
    public function contact(Request $request){
@@ -44,7 +44,7 @@ class PagesController extends Controller {
       ]);
 
       if ($validator->passes()) {
-         Mail::to('myemail@mail.ru')->send(new Contact($request));
+         Mail::to('evgenyweb92@gmail.com')->send(new Contact($request));
          return response()->json(['success'=>'Message sent successfully!']);
       }
       return response()->json(['error'=>$validator->errors()->all()]);
