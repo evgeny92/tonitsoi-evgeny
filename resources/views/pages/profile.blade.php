@@ -13,7 +13,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 offset-lg-2 text-center">
-                    <img class="img-fluid rounded-circle" src="{{ asset('images/evgeny.jpg') }}" alt="">
+                    <img class="img-fluid rounded-circle" src="{{ asset('images/evgeny.jpg') }}" alt="Main photo">
                 </div>
                 <div class="col-lg-5 text-center">
                     <h1>@lang('content.Name')</h1>

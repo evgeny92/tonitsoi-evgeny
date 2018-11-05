@@ -8,7 +8,7 @@
                 <div class="col-lg-8 mx-auto">
                     <h2 class="text-center text-uppercase mb-0">{{ $portfolio->title }}</h2>
                     <hr class="star-dark">
-                    <img class="img-fluid" src="{{ asset('images/portfolio/' . $portfolio->image) }}" alt="">
+                    <img class="img-fluid" src="{{ asset('images/portfolio/' . $portfolio->image) }}" alt="Single portfolio photo">
                     <p>{!! $portfolio->content !!}</p>
                     <a class="btn btn-success btn-visit-site float-left" href="{{ $portfolio->link }}">
                         <i class="fa fa-close"></i>

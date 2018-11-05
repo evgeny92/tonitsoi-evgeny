@@ -21,7 +21,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img class="img-fluid" src="{{ asset('images/portfolio/' . $portfolio->image) }}" alt="">
+                        <img class="img-fluid" src="{{ asset('images/portfolio/' . $portfolio->image) }}" alt="Portfolio photo">
                     </a>
                 </div>
                 @include('pages.portfolio_modal')

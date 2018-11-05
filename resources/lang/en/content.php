@@ -20,8 +20,8 @@ return [
    'Send Message' => 'Send Message',
    /*Profile*/
    'Name' => 'Evgeny Tonitsoi',
-   'Position' => 'Web Developer',
-   'About Me' => 'I am a young web developer, born and live in Chisinau, Republic of Moldova. I specialize in back-end development.',
+   'Position' => 'Junior PHP web developer (Laravel)',
+   'About Me' => 'I am a beginner web developer, live in Chisinau, Republic of Moldova. I specialize in back-end development. At the moment I am engage freelance projects.',
    /*Skills*/
    'Technologies' => 'Technologies with which there was an experience',
    'Knowledge HTML, CSS' => 'Knowledge of HTML, CSS',

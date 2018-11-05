@@ -31,8 +31,8 @@ class PagesController extends Controller {
 
    public function downloadResume(){
       $files = glob(public_path('download/*'));
-      Zipper::make(public_path('download/Resume_Tonitsoi_Evgeny.zip'))->add($files)->close();
-      return response()->download(public_path('download/Resume_Tonitsoi_Evgeny.zip'));
+      Zipper::make(public_path('download/resume.zip'))->add($files)->close();
+      return response()->download(public_path('download/resume.zip'))->deleteFileAfterSend(true);
    }
 
    public function contact(Request $request){
