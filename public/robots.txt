@@ -1,2 +1,4 @@
 User-agent: *
 Disallow:
+Host: https://tonitsoi-evgeny.ru
+Sitemap: https://tonitsoi-evgeny.ru/sitemap.xml

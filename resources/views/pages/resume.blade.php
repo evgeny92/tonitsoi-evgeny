@@ -16,7 +16,7 @@
                 <div class="col-lg-10 mx-auto text-center">
                     <h3>@lang('content.Resume Main')</h3>
                     <div class="btn-center"> <a href="{{ url('resume/download') }}" class="btn btn-success btn-download-resume"><i class="fas fa-cloud-download-alt"></i> @lang('content.Download Resume')</a>
-                        <h2>37,3 @lang('content.Kb')</h2>
+                        <h2>67,9 @lang('content.Kb')</h2>
                     </div>
                 </div>
             </div>
